@@ -19,7 +19,7 @@ const options = {
     userSelectedDate = selectedDates[0];
     if (selectedDates[0].getTime() <= options.defaultDate.getTime()) {
       iziToast.warning({
-        title: 'Caution',
+        title: 'error',
         message: 'Please choose a date in the future',
       });
       btn.disabled = true;
