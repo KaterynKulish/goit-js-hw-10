@@ -37,7 +37,7 @@
 [data-start] {
   border: 1px solid #cfcfcf;
   background-color: #cfcfcf;
-  border-radius: 8;
+  border-radius: 8px;
   width: 75px;
   height: 40px;
   font-family: Montserrat;
